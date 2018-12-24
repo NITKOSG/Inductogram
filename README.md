@@ -1,4 +1,4 @@
-# ReplyBetter
+# Inductogram Backend
 
 ## Steps to setup the API:
 * Install nodejs for your os, to run the server, from

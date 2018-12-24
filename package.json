@@ -1,7 +1,7 @@
 {
-  "name": "replybetter",
+  "name": "inductogram",
   "version": "1.0.0",
-  "description": "ReplyBetter App based on MERN Stack",
+  "description": "Inductogram : Backend",
   "main": "app.js",
   "scripts": {
     "server": "nodemon app.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naman-gupta99/ReplyBetter.git"
+    "url": "git+https://github.com/naman-gupta99/Inductogram.git"
   },
   "author": "TheMaroonKnight",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/naman-gupta99/ReplyBetter/issues"
+    "url": "https://github.com/naman-gupta99/Inductogram/issues"
   },
-  "homepage": "https://github.com/naman-gupta99/ReplyBetter#readme",
+  "homepage": "https://github.com/naman-gupta99/Inductogram#readme",
   "dependencies": {
     "async": "^2.6.1",
     "babel-cli": "^6.26.0",

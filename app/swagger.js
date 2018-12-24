@@ -4,9 +4,9 @@ const swagger = (app) => {
   // swagger definition
   const swaggerDefinition = {
     info: {
-      title: 'ReplyBetter API DOCS',
+      title: 'Inductogram API DOCS',
       version: '0.0.1',
-      description: 'Demonstrating the RESTFul API of ReplyBetter',
+      description: 'Demonstrating the RESTFul API of Inductogram',
     },
     host: 'localhost:8000',
     basePath: '/',
