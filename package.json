@@ -1,37 +1,40 @@
 {
-  "name": "Inductogram",
+  "name": "inductogram",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Inductogram : Backend",
+  "main": "app.js",
   "scripts": {
-    "dev": "crana dev",
-    "start": "crana start"
+    "server": "nodemon app.js",
+    "server_dev": "SET NODE_ENV=dev&& SET GEN_DOC=false&& npm run server",
+    "server_gen": "SET NODE_ENV=dev&& SET GEN_DOC=true&& npm run server"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "crana": {
-    "displayName": "Inductogram",
-    "aliases": {
-      "@shared": "src/shared"
-    }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naman-gupta99/Inductogram.git"
   },
-  "_moduleAliases": {
-    "@shared": "src/shared"
+  "author": "TheMaroonKnight",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naman-gupta99/Inductogram/issues"
   },
+  "homepage": "https://github.com/naman-gupta99/Inductogram#readme",
   "dependencies": {
-    "crana": "0.0.11",
-    "module-alias": "*",
-    "react": "*",
-    "react-dom": "*",
-    "react-hot-loader": "^4.3.11"
-  },
-  "devDependencies": {
-    "eslint": "^4.9.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0",
-    "babel-eslint": "^8.2.3"
+    "async": "^2.6.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "helmet": "^3.15.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.15",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.3.0",
+    "rimraf": "^2.6.2",
+    "swagger-jsdoc": "^3.2.6",
+    "winston": "^3.1.0",
+    "winston-daily-rotate-file": "^3.5.1"
   }
 }

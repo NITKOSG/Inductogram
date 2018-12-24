@@ -1,9 +1,29 @@
-# Getting Started with Inductogram
+# Inductogram Backend
 
-### This project is built in React.Js and NODE.js(v10.13.0)
+## Steps to setup the API:
+* Install nodejs for your os, to run the server, from
+[download node.js](https://nodejs.org/en/download/)
 
-# Installation Guide
-1. Install [Node.Js](https://nodejs.org).
-2. change directory to Inductogram and run npm install.
-3. Crana would be installed along with the other dependencies and now run "crana dev" to start the project.
+Note: You will need to make a config.js file in the project directory.
+It's structure is similar to [config.js gist url](https://gist.github.com/naman-gupta99/14bb8b2802fa28ebb48686160c3c564c).
+just add your mongodb url in the config.js file.
 
+* Run the following command in the project directory to install all the required packages
+```bash
+npm install
+```
+
+* Run the following command in the project directory to run the server in development mode in windows
+```bash
+npm run server_dev
+```
+
+* To generate the Swagger API Docs in windows , run
+```bash
+npm run server_gen
+```
+
+## API Documentation
+* Run the project in Swagger API Docs Generation Mode
+* Navigate to <YOUR_PROJECT_DIRECTORY>/public/api-docs
+* Open index.html
